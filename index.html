@@ -1,12 +1,35 @@
 <!doctype html>
 <html lang="ko">
     <head>
-        <meta charset="UTF-8";
+        <meta charset="UTF-8";>
         <title>고양이의 일상</title>
         <meta name="discription" content="고양이가 좋아하는 것과 일상을 소개합니다.">
     </head>
 <body>
 <h1>고양이의 하루</h1>
 <p>계속 잠을 잡니다.</p>
+
+<table border="1">
+    <tr>
+        <th colspan="2">플랜 이름 + 요금제</th>
+    </tr>
+    <tr>
+        <td rowspan="2">가격</td>
+        <td>월 정액 29,000원</td>
+    </tr>
+    <tr>
+        <td>월 정액 39,000원</td>
+    </tr>
+</table>
+
+<select name="bloodType">
+    <option value="A">A</option>
+    <option value="B">B</option>
+    <option value="O">O</option>
+    <option value="AB">AB</option>
+    <option value="기본값" selected>기본값</option>
+</select>
+
+<textarea name="message" placeholder="메세지 입력 칸"></textarea>
 </body>
 </html>
